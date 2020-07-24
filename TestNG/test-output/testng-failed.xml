@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Depratment]" guice-stage="DEVELOPMENT">
+  <parameter name="APIKey" value="12345"/>
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <listeners>
+    <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Home Loan(failed)">
+    <classes>
+      <class name="Test.basics_Class3">
+        <methods>
+          <include name="postcheck"/>
+          <include name="AfterClass"/>
+          <include name="MobileloginHomeLoan2"/>
+          <include name="Aftermethod"/>
+          <include name="Beforemethod"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- Test.basics_Class3 -->
+    </classes>
+  </test> <!-- Home Loan(failed) -->
+</suite> <!-- Failed suite [Loan Depratment] -->

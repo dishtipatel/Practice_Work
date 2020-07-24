@@ -1,0 +1,7 @@
+<suite name = "Loan Department">
+	<test name ="Personal Loan">
+	<packages>
+		<package name = "Test"></package>
+	</packages>
+	</test>
+</suite>
